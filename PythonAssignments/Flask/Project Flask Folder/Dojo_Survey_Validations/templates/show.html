@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Show Student Information</title>
+  </head>
+  <body>
+    <center>
+    <h1>This information is for,"{{name}}"</h1>
+      <table>
+        <thead>
+          <tr>
+            <th style="padding: 6px;">Name</th>
+            <th style="padding: 6px;">Location</th>
+            <th style="padding: 6px;">Language</th>
+            <th style="padding: 6px;">Comments</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td> {{name}}</td>
+            <td> {{location}}</td>
+            <td> {{language}}</td>
+            <td>{{comments}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+    <a href="/home">Back Home</a>
+  </body>
+</html>
